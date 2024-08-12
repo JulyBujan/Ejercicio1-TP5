@@ -1,11 +1,11 @@
 let numero;
 
 document.getElementById('iniciaJuego').addEventListener('click', function() {
-    // Genera un número aleatorio entre 1 y 100
+   
     numero = Math.floor(Math.random() * 100) + 1;
  
     
-    // Muestra la sección del juego
+    
     document.getElementById('juego').style.display = 'block';
 });
 
